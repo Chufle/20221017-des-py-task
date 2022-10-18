@@ -27,4 +27,4 @@ print(nickname)
 # you want to) and print out his age in days. (Ignore the leap year)
 
 user_age = float(input('How old are you? '))
-print(user_age*365)
+print(int(user_age*365))
