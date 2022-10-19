@@ -1,6 +1,5 @@
 from random import randint
-number_user = input ("1 for rock, 2 for paper, 3 for scissors. What is your choice? ")
-number_user=int(number_user)
+number_user = int(input ("1 for rock, 2 for paper, 3 for scissors. What is your choice? "))
 if number_user == 1:
     print("""
     _______
@@ -27,8 +26,7 @@ elif number_user == 3:
       (____)
 ---.__(___)
 """)
-number_computer = randint(1,3)
-number_computer=int(number_computer)
+number_computer = int(randint(1,3))
 if number_computer == 1:
     print("""
     _______
